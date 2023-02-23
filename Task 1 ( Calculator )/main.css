@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(35, 79, 173);
+}
+
+nav {
+    background-color: rgb(165, 218, 218);
+    color: black;
+    padding: 10px;
+    margin-top: 0;
+}
+
+nav b {
+    margin-left: 10%;
+}
+
+.section {
+    display: flex;
+    margin-left: 10%;
+    width: 23%;
+    margin-top: 20px;
+    float: left;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.title,
+.description {
+    width: 85%;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: rgb(44, 34, 20);
+    padding: 10px;
+    color: black;
+}
+
+#addTaskButton {
+    background-color: rgba(64, 116, 13);
+    border-color: rgb(36, 66, 6);
+    color: rgb(232, 225, 214);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+aside {
+    display: flex;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+tr th {
+    padding: 10px 70px 20px 50px;
+}
+
+tr td {
+    padding: 10px 70px 20px 50px;
+}
+
+button#del {
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+}
+
+thead {
+    background-color: rgb(71, 71, 241);
+    margin: 0px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+tbody {
+    color: antiquewhite;
+}

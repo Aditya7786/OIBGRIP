@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List App</title>
+    <link rel="stylesheet" href="/main.css" />
+</head>
+
+<body>
+    <nav><b>TO-DO List App</b></nav>
+    <main>
+        <section class="section">
+            <form action="">
+                <div width ="80%">
+                    <input type="text" 
+                    class="title" 
+                    id="taskInput"
+                    placeholder="Title" 
+                    required
+                    />
+                </div>
+                <div>
+                <textarea 
+                    class="description" 
+                    id="input2" 
+                    cols="40" 
+                    rows="15" placeholder="Description" required></textarea>
+                </div>
+                <button 
+                id="addTaskButton" 
+                type="submit">Save</button>
+
+            </form>
+
+        </section>
+        <aside>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="taskList">
+
+                </tbody>
+            </table>
+        </aside>
+       
+    </main>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
